@@ -11,4 +11,4 @@ function createFlexboxGrid(rows, cols) {
   }
   document.body.appendChild(container);
 }
-createFlexboxGrid(4, 4);
+createFlexboxGrid(16, 16);
