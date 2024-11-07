@@ -1,0 +1,12 @@
+.grid-container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.grid-item {
+  flex: 1 0 auto;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+}
