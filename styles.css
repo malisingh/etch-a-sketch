@@ -5,7 +5,7 @@
 
 .grid-item {
   flex: 1 0 auto;
-  margin: 5px;
+  margin: 1px;
   height: 100px;
   width: 100px;
   background-color: lightblue;
