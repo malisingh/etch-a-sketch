@@ -1,10 +1,25 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .grid-container {
+  width: 600px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
   width: 600px;
   margin: 20px auto;
 }
 
 .grid-item {
   flex: 1 0 35px;
+  justify-content: space-around;
   margin: 1px;
   height: 25px;
   width: 25px;
