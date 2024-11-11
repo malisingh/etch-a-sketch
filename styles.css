@@ -3,27 +3,10 @@
   box-sizing: border-box;
 }
 
-.grid-container {
-  width: 600px;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#canvas {
-  display: flex;
-  flex-wrap: wrap;
-  width: 600px;
-  margin: 20px auto;
-}
-
 .grid-item {
-  flex: 1 0 35px;
-  justify-content: space-around;
-  margin: 1px;
-  height: 25px;
-  width: 25px;
-  background-color: lightblue;
+  border: 1px;
+  border-color: lightcoral;
+  background-color: lightcyan;
 }
 
 h1 {
@@ -32,4 +15,14 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
   font-size: 40px;
   color: lightpink;
+}
+
+#btn {
+  background-color: lightpink;
+  border: none;
+  color: white;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  padding: 16px 16px;
+  font-size: 18px;
 }
